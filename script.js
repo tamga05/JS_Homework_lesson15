@@ -1,8 +1,14 @@
-let name;
-name = 'Andrey Nikitin';
+// 1
+let admin
+let name
 
-const papa = 'The best papa';
+// 2
+name = 'Джон'
 
-console.log(name)
+// 3
+admin = name
 
-console.log(papa)
+// 4
+console.log(admin)
+
+// 5
