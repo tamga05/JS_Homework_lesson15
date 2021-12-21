@@ -34,8 +34,13 @@ console.log(user);
 user.surname = "Smith";
 console.log(user);
 
+// 10
 user.name = "Pete";
 console.log(user.name);
+
+// 11
+delete user.name;
+console.log(user);
 
 
 
