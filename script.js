@@ -17,8 +17,8 @@ console.log(admin);
 
 // 5
 let house = {
-    city: "Moscow",
-    address: "Pushkinskaya street",
+  city: "Moscow",
+  address: "Pushkinskaya street",
 };
 
 // 6
@@ -45,7 +45,22 @@ delete user.name;
 console.log(user);
 
 // 12
+let styles = ["Джаз", "Блюз"];
+console.log(styles[1]);
 
+// 13
+//styles[2] = "Рок-н-ролл";
+//styles.push("Шансон");
+styles.push("Рок-н-ролл");
+console.log(styles);
+//console.log(styles.pop());
+
+// 14
+styles[Math.floor((styles.length - 1) / 2)] = "Классика";
+console.log(styles);
+
+// 15
+console.log(styles.shift());
 // let str = `a
 // b
 // c`;
