@@ -17,11 +17,13 @@ console.log(admin);
 
 // 5
 let house = {
-  city: "Moscow",
-  address: "Pushkinskaya street",
+    city: "Moscow",
+    address: "Pushkinskaya street",
 };
 
-// console.log(object);
+// 6
+console.log(house.city);
+console.log(house.address);
 
 // 7
 let user = {};
@@ -36,27 +38,25 @@ console.log(user);
 
 // 10
 user.name = "Pete";
-console.log(user.name);
+console.log(user);
 
 // 11
 delete user.name;
 console.log(user);
 
+// 12
 
+// let str = `a
+// b
+// c`;
+// console.log(str);
 
+// console.log("true" * 7);
 
+// console.log(10 / 0);
 
-let str = `a
-b
-c`;
-console.log(str);
+// console.log(-10 * 0);
 
-console.log("true" * 7);
+// console.log(10 / -0);
 
-console.log(10 / 0);
-
-console.log(-10 * 0);
-
-console.log(10 / -0);
-
-document.write(admin);
+// document.write(admin);
