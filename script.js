@@ -69,6 +69,16 @@ console.log(styles);
 // 17
 
 
+// 20
+let x = 5;
+let n = 3;
+
+function pow(x, n) {
+    console.log(x ** n);
+}
+
+pow(x, n);
+
 // let str = `a
 // b
 // c`;
