@@ -68,16 +68,37 @@ console.log(styles);
 
 // 17
 
+// 18
 
-// 20
-let x = 5;
-let n = 3;
+// 19
+let a = 11;
+let b = 9;
 
-function pow(x, n) {
-    console.log(x ** n);
+if (a < b) {
+  console.log(a);
+} else if (b < a) {
+  console.log(b);
+} else {
 }
 
-pow(x, n);
+// 20
+function pow(x, n) {
+  console.log(x ** n);
+}
+
+pow(5, 3);
+
+// Просто Мои примеры
+let q = 0;
+while (q < 7) {
+  console.log(q);
+  q++;
+}
+
+for (let i = 0; i < 5; i++) {
+  // выведет 0, затем 1, затем 2
+  console.log(i);
+}
 
 // let str = `a
 // b
