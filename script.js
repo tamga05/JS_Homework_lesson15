@@ -67,17 +67,28 @@ styles.unshift("Рэп", "Регги");
 console.log(styles);
 
 // 17
+let result;
+let a = 1;
+let b = 2;
+
+if (a + b < 4) {
+  result = "Мало";
+} else {
+  result = "Много";
+}
+// Та же самая конструкция if с использованием условного оператора '?':
+console.log(a + b < 4 ? "Мало" : "Много");
 
 // 18
 
 // 19
-let a = 11;
-let b = 9;
+let c = 11;
+let d = 9;
 
-if (a < b) {
-  console.log(a);
-} else if (b < a) {
-  console.log(b);
+if (c < d) {
+  console.log(c);
+} else if (d < c) {
+  console.log(d);
 } else {
 }
 
