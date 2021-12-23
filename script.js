@@ -61,6 +61,14 @@ console.log(styles);
 
 // 15
 console.log(styles.shift());
+
+// 16
+styles.unshift("Рэп", "Регги");
+console.log(styles);
+
+// 17
+
+
 // let str = `a
 // b
 // c`;
